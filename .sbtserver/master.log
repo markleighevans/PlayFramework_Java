@@ -1,5 +1,5 @@
-New log file opened at Sat Dec 26 10:58:49 GMT 2015 by 6682@mark-SVS1511S9ES
-jvm 6682@mark-SVS1511S9ES
+New log file opened at Sun Dec 27 18:05:10 GMT 2015 by 3968@mark-SVS1511S9ES
+jvm 3968@mark-SVS1511S9ES
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.66-b17
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -7,16 +7,16 @@ Starting event engine
 Starting sbt command engine
 Waiting for sbt command engine
 Command engine arguments=List()
-Command engine baseDirectory=/home/mark/PlayProjects/JavaTinker
+Command engine baseDirectory=/root/DevStuff/PlayFramework_Java
 Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
 > --initialize
 > initialize
 > onFailure load-failed
 > boot
 > reload
-[Loading] Scanning directory /home/mark/PlayProjects/JavaTinker/project
+[Loading] Scanning directory /root/DevStuff/PlayFramework_Java/project
 [Loading] Found non-root projects 
-[Loading] Done in /home/mark/PlayProjects/JavaTinker/project, returning: ()
+[Loading] Done in /root/DevStuff/PlayFramework_Java/project, returning: ()
 deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
 sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
@@ -25,9 +25,9 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
   :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
-[Loading] Done in /home/mark/PlayProjects/JavaTinker/project, returning: (javatinker-build)
-Loading project definition from /home/mark/PlayProjects/JavaTinker/project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@226ae0a3, check cycles: false
+[Loading] Done in /root/DevStuff/PlayFramework_Java/project, returning: (playframework_java-build)
+Loading project definition from /root/DevStuff/PlayFramework_Java/project
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@225a1418, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -46,7 +46,7 @@ All initially invalidated sources: Set()
 
 Copy resource mappings: 
 	
-[Loading] Scanning directory /home/mark/PlayProjects/JavaTinker
+[Loading] Scanning directory /root/DevStuff/PlayFramework_Java
 [Loading] Found root project root w/ remaining 
 deducing auto plugins based on known facts Set(Atom(play.sbt.PlayJava), Atom(play.ebean.sbt.PlayEbean), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.routes.RoutesCompiler))), Clause(Atom(play.sbt.Play),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.sbt.PlayAkkaHttpServer),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayJava),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayLayoutPlugin),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayNettyServer),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayScala),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.routes.RoutesCompiler),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.AkkaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianDeployPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.JDebPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.docker.DockerPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin),Set(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin))), Clause(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmDeployPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalDeployPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin),Set(Atom(com.typesafe.sbt.SbtNativePackager))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsDeployPlugin),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(play.ebean.sbt.PlayEbean),Set(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer))), Clause(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.less.SbtLess),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.jshint.SbtJSHint),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.rjs.SbtRjs),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.digest.SbtDigest),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.mocha.SbtMocha),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayLayoutPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayNettyServer))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.less.SbtLess))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jshint.SbtJSHint))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.rjs.SbtRjs))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.digest.SbtDigest))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.mocha.SbtMocha))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(And(Set(Atom(sbt.plugins.BackgroundRunPlugin), Atom(play.sbt.Play), Atom(sbt.plugins.SerializersPlugin))),Set(Atom(play.sbt.forkrun.PlayForkRun)))))
   :: deduced result: Matched(sbt.plugins.CorePlugin,play.ebean.sbt.PlayEbean,play.sbt.PlayJava,com.typesafe.play.sbt.enhancer.PlayEnhancer,sbt.plugins.InteractionServicePlugin,sbt.plugins.SendEventServicePlugin,play.sbt.Play,sbt.plugins.SerializersPlugin,sbt.plugins.IvyPlugin,com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging,play.twirl.sbt.SbtTwirl,sbt.plugins.JvmPlugin,play.sbt.PlayNettyServer,play.sbt.PlayLayoutPlugin,play.sbt.routes.RoutesCompiler,com.typesafe.sbt.jse.SbtJsTask,com.typesafe.sbt.jshint.SbtJSHint,com.typesafe.sbt.packager.archetypes.JavaAppPackaging,sbt.plugins.JUnitXmlReportPlugin,com.typesafe.sbt.mocha.SbtMocha,com.typesafe.sbt.less.SbtLess,com.typesafe.sbt.rjs.SbtRjs,com.typesafe.sbt.jse.SbtJsEngine,com.typesafe.sbt.coffeescript.SbtCoffeeScript,sbt.plugins.BackgroundRunPlugin,com.typesafe.sbt.packager.rpm.RpmPlugin,com.typesafe.sbt.packager.windows.WindowsPlugin,com.typesafe.sbt.web.SbtWeb,com.typesafe.sbt.packager.docker.DockerPlugin,play.sbt.forkrun.PlayForkRun,com.typesafe.sbt.packager.debian.DebianPlugin,com.typesafe.sbt.digest.SbtDigest,com.typesafe.sbt.packager.universal.UniversalPlugin,com.typesafe.sbt.packager.linux.LinuxPlugin,com.typesafe.sbt.SbtNativePackager)
@@ -60,58 +60,16 @@ sorting: ns: List(sbt.plugins.CorePlugin, play.ebean.sbt.PlayEbean, play.sbt.Pla
   :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript) not found List(play.sbt.PlayJava, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.forkrun.PlayForkRun)
   :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.PlayJava, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.forkrun.PlayForkRun) not found List()
   :: sorted deduced result: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.PlayJava, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.forkrun.PlayForkRun)
-[Loading] Done in /home/mark/PlayProjects/JavaTinker, returning: (root)
-Set current project to JavaTinker (in build file:/home/mark/PlayProjects/JavaTinker/)
+[Loading] Done in /root/DevStuff/PlayFramework_Java, returning: (root)
+Set current project to JavaTinker (in build file:/root/DevStuff/PlayFramework_Java/)
 Reapplying settings...
-Set current project to JavaTinker (in build file:/home/mark/PlayProjects/JavaTinker/)
+Set current project to JavaTinker (in build file:/root/DevStuff/PlayFramework_Java/)
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
-> compile
-Evaluating tasks: compile:compile
-Running task... Cancel: sbt.server.ServerTaskCancellation@25280a9b, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(/home/mark/PlayProjects/JavaTinker/app/models/Task.java)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/home/mark/PlayProjects/JavaTinker/app/models/Task.java)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/home/mark/PlayProjects/JavaTinker/app/models/Task.java)
-
-Read from stdout: Compiling 1 Java source to /home/mark/PlayProjects/JavaTinker/target/scala-2.11/classes...
-Compiling 1 Java source to /home/mark/PlayProjects/JavaTinker/target/scala-2.11/classes...
-Attempting to call com.sun.tools.javac.api.JavacTool@23e48e91 directly...
-Read from stdout: /home/mark/PlayProjects/JavaTinker/app/models/Task.java: /home/mark/PlayProjects/JavaTinker/app/models/Task.java uses or overrides a deprecated API.
-/home/mark/PlayProjects/JavaTinker/app/models/Task.java: /home/mark/PlayProjects/JavaTinker/app/models/Task.java uses or overrides a deprecated API.
-Read from stdout: /home/mark/PlayProjects/JavaTinker/app/models/Task.java: Recompile with -Xlint:deprecation for details.
-/home/mark/PlayProjects/JavaTinker/app/models/Task.java: Recompile with -Xlint:deprecation for details.
-Read from stdout: /home/mark/PlayProjects/JavaTinker/app/models/Task.java: /home/mark/PlayProjects/JavaTinker/app/models/Task.java uses unchecked or unsafe operations.
-/home/mark/PlayProjects/JavaTinker/app/models/Task.java: /home/mark/PlayProjects/JavaTinker/app/models/Task.java uses unchecked or unsafe operations.
-Read from stdout: /home/mark/PlayProjects/JavaTinker/app/models/Task.java: Recompile with -Xlint:unchecked for details.
-/home/mark/PlayProjects/JavaTinker/app/models/Task.java: Recompile with -Xlint:unchecked for details.
-Java compilation took 0.678548431 s
-Java analysis took 0.134734715 s
-Java compile + analysis took 0.823559921 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Total time: 2 s, completed 26-Dec-2015 10:58:58
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/home/mark/PlayProjects/JavaTinker/}root/compile:discoveredMainClasses
+> {file:/root/DevStuff/PlayFramework_Java/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@47f61bd8, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@7e95bbed, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -128,18 +86,18 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 1 s, completed 26-Dec-2015 10:58:59
+Total time: 1 s, completed 27-Dec-2015 18:05:18
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/home/mark/PlayProjects/JavaTinker/}root/compile:mainClass
+> {file:/root/DevStuff/PlayFramework_Java/}root/compile:mainClass
 Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@4d4711b3, check cycles: false
-Total time: 0 s, completed 26-Dec-2015 10:58:59
+Running task... Cancel: sbt.server.ServerTaskCancellation@193d7a4b, check cycles: false
+Total time: 0 s, completed 27-Dec-2015 18:05:18
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/home/mark/PlayProjects/JavaTinker/}root/compile:discoveredMainClasses
+> {file:/root/DevStuff/PlayFramework_Java/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@41d658f5, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@656a7b24, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -156,30 +114,36 @@ Sources indirectly invalidated by:
 	external source: Set()
 All initially invalidated sources: Set()
 
-Total time: 1 s, completed 26-Dec-2015 10:59:00
+Total time: 1 s, completed 27-Dec-2015 18:05:19
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/root/DevStuff/PlayFramework_Java/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@35a54ef9, check cycles: false
+Total time: 0 s, completed 27-Dec-2015 18:05:19
 > server-post-command-cleanup
 > server-handle-next-server-request
 > backgroundRun
 Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@3c5c5fb4, check cycles: false
-Total time: 0 s, completed 26-Dec-2015 10:59:53
+Running task... Cancel: sbt.server.ServerTaskCancellation@760d5131, check cycles: false
+Total time: 0 s, completed 27-Dec-2015 18:05:50
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/home/mark/PlayProjects/JavaTinker/}root/*:playForkConfig
+> {file:/root/DevStuff/PlayFramework_Java/}root/*:playForkConfig
 Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@6dd2045c, check cycles: false
-Total time: 1 s, completed 26-Dec-2015 10:59:56
+Running task... Cancel: sbt.server.ServerTaskCancellation@6b10a751, check cycles: false
+Total time: 1 s, completed 27-Dec-2015 18:05:53
 > server-post-command-cleanup
 > server-handle-next-server-request
 > root/playForkNotifyStart http://localhost:9000
 Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@5ebae1c4, check cycles: false
-Total time: 0 s, completed 26-Dec-2015 10:59:57
+Running task... Cancel: sbt.server.ServerTaskCancellation@41946c4c, check cycles: false
+Total time: 0 s, completed 27-Dec-2015 18:05:55
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/home/mark/PlayProjects/JavaTinker/}root/*:playForkReload
+> {file:/root/DevStuff/PlayFramework_Java/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@35d3d2fa, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@680b5aa, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -197,15 +161,18 @@ Sources indirectly invalidated by:
 All initially invalidated sources: Set()
 
 Copy resource mappings: 
-	(/home/mark/PlayProjects/JavaTinker/conf/routes,/home/mark/PlayProjects/JavaTinker/target/scala-2.11/classes/routes)
-	(/home/mark/PlayProjects/JavaTinker/conf/application.conf,/home/mark/PlayProjects/JavaTinker/target/scala-2.11/classes/application.conf)
-	(/home/mark/PlayProjects/JavaTinker/conf/logback.xml,/home/mark/PlayProjects/JavaTinker/target/scala-2.11/classes/logback.xml)
-Total time: 2 s, completed 26-Dec-2015 11:00:04
+	(/root/DevStuff/PlayFramework_Java/conf/routes,/root/DevStuff/PlayFramework_Java/target/scala-2.11/classes/routes)
+	(/root/DevStuff/PlayFramework_Java/conf/application.conf,/root/DevStuff/PlayFramework_Java/target/scala-2.11/classes/application.conf)
+	(/root/DevStuff/PlayFramework_Java/conf/evolutions,/root/DevStuff/PlayFramework_Java/target/scala-2.11/classes/evolutions)
+	(/root/DevStuff/PlayFramework_Java/conf/logback.xml,/root/DevStuff/PlayFramework_Java/target/scala-2.11/classes/logback.xml)
+	(/root/DevStuff/PlayFramework_Java/conf/evolutions/default,/root/DevStuff/PlayFramework_Java/target/scala-2.11/classes/evolutions/default)
+	(/root/DevStuff/PlayFramework_Java/conf/evolutions/default/1.sql,/root/DevStuff/PlayFramework_Java/target/scala-2.11/classes/evolutions/default/1.sql)
+Total time: 2 s, completed 27-Dec-2015 18:06:09
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/home/mark/PlayProjects/JavaTinker/}root/*:playForkReload
+> {file:/root/DevStuff/PlayFramework_Java/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@3300cd60, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@3774eaa7, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -223,12 +190,12 @@ Sources indirectly invalidated by:
 All initially invalidated sources: Set()
 
 Copy resource mappings: 
-	(/home/mark/PlayProjects/JavaTinker/conf/routes,/home/mark/PlayProjects/JavaTinker/target/scala-2.11/classes/routes)
-	(/home/mark/PlayProjects/JavaTinker/conf/application.conf,/home/mark/PlayProjects/JavaTinker/target/scala-2.11/classes/application.conf)
-	(/home/mark/PlayProjects/JavaTinker/conf/evolutions,/home/mark/PlayProjects/JavaTinker/target/scala-2.11/classes/evolutions)
-	(/home/mark/PlayProjects/JavaTinker/conf/logback.xml,/home/mark/PlayProjects/JavaTinker/target/scala-2.11/classes/logback.xml)
-	(/home/mark/PlayProjects/JavaTinker/conf/evolutions/default,/home/mark/PlayProjects/JavaTinker/target/scala-2.11/classes/evolutions/default)
-	(/home/mark/PlayProjects/JavaTinker/conf/evolutions/default/1.sql,/home/mark/PlayProjects/JavaTinker/target/scala-2.11/classes/evolutions/default/1.sql)
-Total time: 1 s, completed 26-Dec-2015 11:00:17
+	(/root/DevStuff/PlayFramework_Java/conf/routes,/root/DevStuff/PlayFramework_Java/target/scala-2.11/classes/routes)
+	(/root/DevStuff/PlayFramework_Java/conf/application.conf,/root/DevStuff/PlayFramework_Java/target/scala-2.11/classes/application.conf)
+	(/root/DevStuff/PlayFramework_Java/conf/evolutions,/root/DevStuff/PlayFramework_Java/target/scala-2.11/classes/evolutions)
+	(/root/DevStuff/PlayFramework_Java/conf/logback.xml,/root/DevStuff/PlayFramework_Java/target/scala-2.11/classes/logback.xml)
+	(/root/DevStuff/PlayFramework_Java/conf/evolutions/default,/root/DevStuff/PlayFramework_Java/target/scala-2.11/classes/evolutions/default)
+	(/root/DevStuff/PlayFramework_Java/conf/evolutions/default/1.sql,/root/DevStuff/PlayFramework_Java/target/scala-2.11/classes/evolutions/default/1.sql)
+Total time: 2 s, completed 27-Dec-2015 18:06:17
 > server-post-command-cleanup
 > server-handle-next-server-request
